@@ -8,7 +8,7 @@
 
 /* header */
 .navbar {
-    background-color: #04D300;
+    background-image: linear-gradient(to right, #448B00, #04D300, #448B00);
     height: 150px;
 }
 
@@ -23,17 +23,78 @@ a {
     font-size: 20px;
     font-weight: 900;
     color: white;
+    padding: 1rem;
 }
 
-/* main */
+/* ONE */
+.container.one {
+    background-image: linear-gradient(to right, #448B00, #04D300, #448B00);
+    padding: 25px;
+}
+
+.container.one h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.container.one p {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.container.one .button {
+    background-color: #B1034D;
+}
+
+.fight img {
+    border-radius: 25px;
+    width: 600px;
+    margin: 1rem;
+}
+
+/* TWO */
+.container.two {}
+
+.container.two h1 {
+    color: #B1034D;
+    font-size: 40px;
+    padding: 25px;
+}
+
+.characters {
+    padding: 20px 100px;
+}
+
+.gon, .killua, .kurapika, .leorio, .hisoka, .netero {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.characters img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border: #B1034D solid 6px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 22px;
+    font-size: 18px;
     color: white;
     background-color: #04D300;
-    border: none;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
